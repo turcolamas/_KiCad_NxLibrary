@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLE4275D
+D LDO Voltage Regulators LW Drop Fixed VOLT REGULATOR 200mA 5V
+K
+F https://www.infineon.com/dgdl/Infineon-TLE4275V50-DS-v01_07-en%5B1%5D.pdf?fileId=db3a304412b407950112b437f96169d5
+$ENDCMP
+#
+#End Doc Library

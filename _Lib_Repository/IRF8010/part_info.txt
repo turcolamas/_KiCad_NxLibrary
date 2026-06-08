@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRF8010
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=1.1
+Released=2022-02-23 04:30:34
+Downloaded=2023-11-10 00:32:36
+3D=Y

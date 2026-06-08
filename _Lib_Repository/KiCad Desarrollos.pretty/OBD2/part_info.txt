@@ -1,0 +1,9 @@
+Manufacturer=Comtech
+PartNumber=OBD2
+PartCategory=Connector
+PackageCategory=Other
+PinCount=16
+Version=1.2
+Released=2019-12-12 14:09:09
+Downloaded=2022-12-11 15:09:31
+3D=Y

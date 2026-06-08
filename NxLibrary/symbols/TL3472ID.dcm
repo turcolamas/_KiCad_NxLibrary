@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL3472ID
+D HIGH-SLEW-RATE, SINGLE-SUPPLY OPERATIONAL AMPLIFIER
+K
+F http://www.ti.com/lit/gpn/TL3472
+$ENDCMP
+#
+#End Doc Library

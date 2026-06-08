@@ -1,0 +1,18 @@
+.TL3843P :1 ;TL3843P, PWM Current Mode Controller, 0.2 A Boost, Flyback, 500 kHz 8-Pin PDIP
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="COMP" 2="VFB" 3="ISENSE" 4="RT/CT" 5="GND" 6="OUTPUT" 7="VCC" 8="REF"
+*MXP 8
+*DFN TL3843P
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL3843P)
+~!Mouser Part Number (595-TL3843P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL3843P?qs=tJ5HNKWh3OU3fB%2FH2D3zVw%3D%3D)
+~!Arrow Part Number (TL3843P)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tl3843p/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tl3842.pdf)
+~!Height (5.08mm)
+~!3D_Model (TL3843P)
+TL3843P
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

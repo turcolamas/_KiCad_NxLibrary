@@ -1,0 +1,17 @@
+.TLE4275D :1 ;LDO Voltage Regulators LW Drop Fixed VOLT REGULATOR 200mA 5V
+TLE4275D
+*STM IC
+*NGS
+*PLB 1="I" 2="RO" 3="GND" 4="D" 5="Q"
+*MXP 5
+*DFN TLE4275D
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (TLE4275D)
+~!Mouser Part Number (726-TLE4275D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE4275D?qs=3D22qUCSisCm%252B2ao74XBfA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-TLE4275V50-DS-v01_07-en%5B1%5D.pdf?fileId=db3a304412b407950112b437f96169d5)
+~!Height (2.5mm)
+TLE4275D
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

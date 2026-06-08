@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLE4275D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "TLE4275D" (!) = "", "TLE4275D", "Other", "726-TLE4275D", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE4275D?qs=3D22qUCSisCm%252B2ao74XBfA%3D%3D", "", "", "LDO Voltage Regulators LW Drop Fixed VOLT REGULATOR 200mA 5V", "https://www.infineon.com/dgdl/Infineon-TLE4275V50-DS-v01_07-en%5B1%5D.pdf?fileId=db3a304412b407950112b437f96169d5", "2.5 mm"
+END_PART
+
+END.

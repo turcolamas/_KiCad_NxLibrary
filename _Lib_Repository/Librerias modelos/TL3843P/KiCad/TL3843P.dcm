@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL3843P
+D TL3843P, PWM Current Mode Controller, 0.2 A Boost, Flyback, 500 kHz 8-Pin PDIP
+K
+F http://www.ti.com/lit/ds/symlink/tl3842.pdf
+$ENDCMP
+#
+#End Doc Library

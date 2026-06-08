@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IR2117S'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IR2117S" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "", "", "Single channel driver, 8-lead SOIC", "http://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d", "1.75 mm"
+END_PART
+
+END.

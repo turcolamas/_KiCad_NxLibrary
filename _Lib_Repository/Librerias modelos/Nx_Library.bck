@@ -1,0 +1,73 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +5V_SENSOR_A
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_SENSOR_B
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP A2C08350
+D Integrado genérico QFP32
+K Genérico
+$ENDCMP
+#
+$CMP AMIS-30660
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOIC-8
+K High-Speed CAN Transceiver
+$ENDCMP
+#
+$CMP AMIS-30660G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOIC-8
+K High-Speed CAN Transceiver
+$ENDCMP
+#
+$CMP ET2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Double-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
+$CMP Jack_Banana
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP Jack_Banana_doble
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP Jack_Banana_triple
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP L9613
+D Iso Line K Transceiver,, SOIC-8
+K ISO Data Transceiver
+$ENDCMP
+#
+$CMP L9613B
+D Iso Line K Transceiver, SOIC-8
+K ISO Data Transceiver
+$ENDCMP
+#
+$CMP QFP32
+D Integrado genérico QFP32
+K Genérico
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf
+$ENDCMP
+#
+$CMP TLE7209-2R
+D 7 A H-Bridge for DC-Motor Applications
+F http://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/TLE7209-2R.pdf
+$ENDCMP
+#
+#End Doc Library

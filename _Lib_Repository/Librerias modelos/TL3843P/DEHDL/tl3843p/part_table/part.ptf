@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TL3843P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TL3843P" (!) = "", "DIP794W53P254L959H508Q8N", "Dual-In-Line Packages", "595-TL3843P", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL3843P?qs=tJ5HNKWh3OU3fB%2FH2D3zVw%3D%3D", "TL3843P", "https://www.arrow.com/en/products/tl3843p/texas-instruments?region=nac", "TL3843P, PWM Current Mode Controller, 0.2 A Boost, Flyback, 500 kHz 8-Pin PDIP", "http://www.ti.com/lit/ds/symlink/tl3842.pdf", "5.08 mm"
+END_PART
+
+END.

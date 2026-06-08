@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TLE4275D"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TLE4275D")
+        (spec "default")
+    )
+)

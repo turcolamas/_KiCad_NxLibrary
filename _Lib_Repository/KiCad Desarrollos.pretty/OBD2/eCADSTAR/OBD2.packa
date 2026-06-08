@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "OBD2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-12-14:09:09)
+    (mountForm default
+        (footprintRef "OBD2")
+        (spec "System")
+    )
+)

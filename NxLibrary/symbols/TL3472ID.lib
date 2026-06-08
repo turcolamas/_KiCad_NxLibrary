@@ -1,0 +1,18 @@
+.TL3472ID :1 ;HIGH-SLEW-RATE, SINGLE-SUPPLY OPERATIONAL AMPLIFIER
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="1OUT" 2="1IN-" 3="1IN+" 4="VCC-/GND" 5="2IN+" 6="2IN-" 7="2OUT" 8="VCC+"
+*MXP 8
+*DFN TL3472ID
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL3472ID)
+~!Mouser Part Number (595-TL3472ID)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL3472ID?qs=odmYgEirbwyqcIbDuNFdUw%3D%3D)
+~!Arrow Part Number (TL3472ID)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tl3472id/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TL3472)
+~!Height (1.75mm)
+~!3D_Model (TL3472ID)
+TL3472ID
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

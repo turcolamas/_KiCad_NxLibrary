@@ -1,0 +1,119 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7000_Fairchild
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP IR2117S
+D Single channel driver, 8-lead SOIC
+K
+F http://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d
+$ENDCMP
+#
+$CMP LED_RGB_C.A.-Pin2
+D LED RGB, common anode (pin 1)
+K led rgb diode
+$ENDCMP
+#
+$CMP MPA-S-1XX-C
+D OMRON G5G-1, Miniature Single Pole Relay, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP MT30-F
+D female
+K mt30, female
+$ENDCMP
+#
+$CMP MT30-M
+D male
+K mt30, male
+$ENDCMP
+#
+$CMP +5V_SENSOR_A
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_SENSOR_B
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP A2C08350
+D Integrado genérico QFP32
+K Genérico
+$ENDCMP
+#
+$CMP AMIS-30660
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOIC-8
+K High-Speed CAN Transceiver
+$ENDCMP
+#
+$CMP BTS5210G
+D Smart High-Side Power Switch PROFET SO14 Infineon BTS5210G, Dual Intelligent Power Switch, High Side, 3.9A, -10  16V, 14-Pin, SOIC
+F http://uk.rs-online.com/web/p/products/7532898
+$ENDCMP
+#
+$CMP ET2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Double-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
+$CMP Jack_Banana
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP Jack_Banana_doble
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP Jack_Banana_triple
+D CONN TIP JACK SOLDER RED
+K J576-ND
+F https://belfuse.com/resources/Johnson/drawings/dr-1051101001.pdf
+$ENDCMP
+#
+$CMP L9613B
+D Iso Line K Transceiver, SOIC-8
+K ISO Data Transceiver
+$ENDCMP
+#
+$CMP QFP32
+D Integrado genérico QFP32
+K Genérico
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf
+$ENDCMP
+#
+$CMP TLE7209-2R
+D 7 A H-Bridge for DC-Motor Applications
+F http://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/TLE7209-2R.pdf
+$ENDCMP
+#
+$CMP IR2117S
+D Single channel driver, 8-lead SOIC
+K
+F http://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d
+$ENDCMP
+#
+$CMP TBD62783
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+$ENDCMP
+#
+#End Doc Library

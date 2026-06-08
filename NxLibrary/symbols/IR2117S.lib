@@ -1,0 +1,18 @@
+.IR2117S :1 ;Single channel driver, 8-lead SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VCC" 2="IN" 3="COM" 4="NC_1" 5="NC_2" 6="VS" 7="HO" 8="VB"
+*MXP 8
+*DFN IR2117S
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IR2117S)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d)
+~!Height (1.75mm)
+~!3D_Model (IR2117S)
+IR2117S
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

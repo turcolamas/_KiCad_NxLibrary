@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TL3843P
+#/182366/299076/2.50/8/3/Integrated Circuit
+DEF TL3843P IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TL3843P" 1150 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl3842.pdf" 1150 0 50 H I L CNN
+F4 "TL3843P, PWM Current Mode Controller, 0.2 A Boost, Flyback, 500 kHz 8-Pin PDIP" 1150 -100 50 H I L CNN "Description"
+F5 "5.08" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL3843P" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TL3843P" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL3843P?qs=tJ5HNKWh3OU3fB%2FH2D3zVw%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TL3843P" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tl3843p/texas-instruments?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COMP 1 0 0 200 R 50 50 0 0 P
+X VFB 2 0 -100 200 R 50 50 0 0 P
+X ISENSE 3 0 -200 200 R 50 50 0 0 P
+X RT/CT 4 0 -300 200 R 50 50 0 0 P
+X REF 8 1300 0 200 L 50 50 0 0 P
+X VCC 7 1300 -100 200 L 50 50 0 0 P
+X OUTPUT 6 1300 -200 200 L 50 50 0 0 P
+X GND 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
