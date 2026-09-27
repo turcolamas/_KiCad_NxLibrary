@@ -1,0 +1,71 @@
+(kicad_symbol_lib
+  (version 20240108)
+  (generator "manual")
+
+  ; ── KCD1-101L-2  SPST ON-OFF ──────────────────────────────────────────
+  (symbol "SW_Rocker_KCD1-101L-2_ON-OFF"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-101L-2" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-101L-2_ON-OFF" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-101L-2_ON-OFF_0_1"
+      ; Pin 1 circle
+      (circle (center -3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Pin 2 circle
+      (circle (center 3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Switch blade line (open position)
+      (polyline (pts (xy -3.302 0) (xy 3.048 1.524)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-101L-2_ON-OFF_1_1"
+      (pin passive line (at -6.35 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  6.35 0 180) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+
+  ; ── KCD1-102L-2  SPST ON-ON ───────────────────────────────────────────
+  (symbol "SW_Rocker_KCD1-102L-2_ON-ON"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-102L-2" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-102L-2_ON-ON" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-102L-2_ON-ON_0_1"
+      (circle (center -3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Closed blade
+      (polyline (pts (xy -3.302 0) (xy 3.302 0.508)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-102L-2_ON-ON_1_1"
+      (pin passive line (at -6.35 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  6.35 0 180) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+
+  ; ── KCD1-103L-2  SPDT ON-OFF-ON ───────────────────────────────────────
+  (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-103L-2" (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-103L-2_ON-OFF-ON" (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON_0_1"
+      ; Common pin circle (center)
+      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Throw A
+      (circle (center -3.81 2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Throw B
+      (circle (center -3.81 -2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      ; Blade toward throw A
+      (polyline (pts (xy -0.508 0) (xy -3.302 2.032)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON_1_1"
+      (pin passive line (at -6.35 2.54 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -6.35 -2.54 0) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  3.81 0 180) (length 3.81) (name "COM" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

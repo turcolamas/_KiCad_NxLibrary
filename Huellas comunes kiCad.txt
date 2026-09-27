@@ -1,0 +1,45 @@
+Huellas de uso comun en KITKAD
+
+capacitor disco chico: 		Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+
+capacitor poliester chico:	Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm						
+
+led 3mm: 					LED_THT:LED_D3.0mm
+
+Resistencia:				Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+
+Cap	 Electrolitico chico: 	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+Cap Electrolitico MEdiano:	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm
+							Capacitor_THT:CP_Radial_D8.0mm_P3.80mm
+
+Potenciometro : 			Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+
+DIP 8: 						Package_DIP:DIP-8_W7.62mm_LongPads
+DIP 14 : 					Package_DIP:DIP-14_W7.62mm_LongPads
+dip 16 : 					Package_DIP:DIP-16_W7.62mm_LongPads
+
+Conector 4 pines en linea: 
+Conector 3 pines en linea: 	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+
+switch: 					Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled
+							Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled
+							Nx_Library:SW_Nx_1P2T_Intelbras
+							
+Conector 2 Tornillos:		TerminalBlock:TerminalBlock_bornier-2_P5.08mm
+Conector 3 Tornillos:		TerminalBlock:TerminalBlock_bornier-3_P5.08mm
+
+Conector 2 x 5 IDC:			Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical
+
+Jumper 2.54mm: 				Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical
+
+Relé doble inversor G5V-2 	Relay_THT:Relay_DPDT_Omron_G5V-2
+
+Barrel_Jack_Switch			Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal
+
+Conector DB9 Hembra			Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+Conector DB9 Macho			Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+
+Mini Fuse 					Fuse:Fuse_Blade_Mini_directSolder
+Tac Switch 					Button_Switch_THT:SW_PUSH_6mm_H5mm
+
+IRFZ44N 					Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown

@@ -1,0 +1,192 @@
+(footprint "SW_Rocker_KCD1-101L-2_ON-OFF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Rocker Switch KCD1-101L-2 ON-OFF, panel cutout 19.2x13mm, 2-pin THT, 7mm pitch")
+	(tags "rocker switch KCD1 on-off spst panel mount")
+	(property "Reference" "SW1"
+		(at 0 -17 0)
+		(layer "F.SilkS")
+		(uuid "eb41dfa0-cc0d-4dbf-82b7-7c9820b126f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Rocker_KCD1-101L-2"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "12d33358-dd81-4b85-95bd-284fb716a9de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9a9d547-c679-4204-86d2-137b40447615")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c4cd41-702e-440a-bda1-baa5a48194a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.6 -13.8)
+		(end -9.6 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9804cb7-bdf1-4720-9c60-840395f1a10e")
+	)
+	(fp_line
+		(start -9.6 -0.8)
+		(end 9.6 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05aaba47-b036-40c1-9064-afa96590a9c7")
+	)
+	(fp_line
+		(start 9.6 -13.8)
+		(end -9.6 -13.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80622fd5-92b9-4353-a200-14f7c3184f6f")
+	)
+	(fp_line
+		(start 9.6 -0.8)
+		(end 9.6 -13.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f0629cb-6eb6-4d7b-9812-12997ee53654")
+	)
+	(fp_line
+		(start -11 -25.1)
+		(end 11 -25.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "805dba2e-8b4b-482a-9974-26601dd376f4")
+	)
+	(fp_line
+		(start -11 1.1)
+		(end -11 -25.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb1d38a1-0332-4ae4-93ab-1021516bb180")
+	)
+	(fp_line
+		(start 11 -25.1)
+		(end 11 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c73561d7-8a71-4d71-8a68-ba890802985b")
+	)
+	(fp_line
+		(start 11 1.1)
+		(end -11 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04c4af65-519f-441e-90d8-f4cd56c45db1")
+	)
+	(fp_line
+		(start -10.5 -24.6)
+		(end -10.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ac8b159-4166-4cd9-a692-63cb94cb50eb")
+	)
+	(fp_line
+		(start -10.5 -0.8)
+		(end 10.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0504eaa-dbc3-41cd-b0c4-d7018cf2bda1")
+	)
+	(fp_line
+		(start 10.5 -24.6)
+		(end -10.5 -24.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9662fec-0f77-4c84-b661-f81382dc0e7c")
+	)
+	(fp_line
+		(start 10.5 -0.8)
+		(end 10.5 -24.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8b63df8-bd17-4372-b3d4-bf36cfa40b58")
+	)
+	(pad "1" thru_hole rect
+		(at 7 0)
+		(size 3.5 3.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35ab525c-abfc-498e-8d28-042e477a58f2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "824bd462-f148-4ba9-a6bd-851c2a1744e0")
+	)
+	(embedded_fonts no)
+)

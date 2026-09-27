@@ -22981,4 +22981,59 @@
       (number "5" (effects (font (size 1.27 1.27))))
     )
   )
+  (symbol "SW_Rocker_KCD1-101L-2_ON-OFF"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-101L-2" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-101L-2_ON-OFF" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-101L-2_ON-OFF_0_1"
+      (circle (center -3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (polyline (pts (xy -3.302 0) (xy 3.048 1.524)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-101L-2_ON-OFF_1_1"
+      (pin passive line (at -6.35 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  6.35 0 180) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+
+  (symbol "SW_Rocker_KCD1-102L-2_ON-ON"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-102L-2" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-102L-2_ON-ON" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-102L-2_ON-ON_0_1"
+      (circle (center -3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.81 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (polyline (pts (xy -3.302 0) (xy 3.302 0.508)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-102L-2_ON-ON_1_1"
+      (pin passive line (at -6.35 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  6.35 0 180) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+
+  (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON"
+    (pin_names (offset 1.016) hide)
+    (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Rocker_KCD1-103L-2" (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "KCD1_Switch:SW_Rocker_KCD1-103L-2_ON-OFF-ON" (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON_0_1"
+      (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center -3.81 2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center -3.81 -2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (polyline (pts (xy -0.508 0) (xy -3.302 2.032)) (stroke (width 0)) (fill (type none)))
+    )
+    (symbol "SW_Rocker_KCD1-103L-2_ON-OFF-ON_1_1"
+      (pin passive line (at -6.35 2.54 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -6.35 -2.54 0) (length 2.54) (name "B" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at  3.81 0 180) (length 3.81) (name "COM" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
 )
